@@ -1,0 +1,288 @@
+@media screen and (max-width:640px) {
+  #Home .navgation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #Home .navgation .logo {
+    width: 100%;
+    text-align: center;
+  }
+  #Home .navgation .list {
+   width: 100%;
+   text-align: center;
+  }
+  #Home .navgation .list ul li {
+   padding: 5px;
+    font-weight: 400;
+    font-size: 10px;
+    
+  }
+  #Home .container{
+    width: 90%;
+  }
+  
+  #Home .home-content h1 {
+    color: #ff305b;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  #Home .home-content h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  #About .container {
+    width: 100%;
+    padding-top: 0px;
+  }
+  #about{
+    padding: 50px 0;
+  }
+  .border{
+    width: 100%;
+    margin-bottom: 40px;
+    border: none;
+    margin-left: -30px;
+  }
+
+  
+  #About .About-info{
+    width: 100%;
+    margin: 0;
+  }
+  #About .About-info p {
+    color: #555555;
+    line-height: 1.6;
+    font-size: 19px;
+    border-bottom: 1px dashed #555555;
+    padding-bottom: 20px;
+  }
+  #About .border .About-img .glass .icon a {
+    color: #fff;
+    padding: 0 5px;
+  }
+  #About .About-info .about-list1 {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  }
+  #About .About-info .about-list2 {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  #About .btn {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  .btn a {
+    padding: 0 5px;
+    font-size: 15px;
+    color: #fff;
+  }
+  #Services .Services-info {
+    width: 100%;
+  }
+  #Portfolio .Portfolio-card {
+    width: 100%;
+  }
+  #Portfolio .list li {
+    display: inline-block;
+    padding: 14px;
+    margin-bottom: 30px;
+  }
+  .Count .count-info{
+    width: 100%;
+
+  }
+  .Count .count-info h5{
+    margin-bottom: 20px;
+  }
+  #Testimonial .container {
+    width: 90%;
+  }
+  #Testimonial .feedback .feed-img {
+    width: 100%;
+    text-align: center;
+  }
+  #Testimonial .feedback .feed-img img {
+    width: 30%;
+  }
+  #Testimonial .feedback .feed-info {
+    width: 95%;
+  }
+  #Blog{
+    padding: 70px 0;
+  }
+  #Blog .container{
+    width: 100%;
+  }
+  #Blog .Blog-info {
+    width: 100%;
+  }
+  #Contact .container{
+    width: 95%;
+  }
+  #Contact .container .Contact-form{
+    width: 100%;
+  }
+  #Contact .Contact-form .inputs{
+    width: 100%;
+  }
+  #Contact .Contact-form .email{
+    width: 100%;
+    margin-left: 0;
+  }
+  .Footer .container {
+    width: 95%;
+  }
+  .end-foot {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+}
+  
+    
+    /* md */
+    @media screen and (min-width: 768px) and (max-width: 1024px)  {
+      #Home .navgation .container{
+        width: 95%;
+      }
+      #Home .navgation .logo {
+        float: left;
+        width: 25%;
+        padding: 10px;
+      }
+      #Home .navgation .list {
+        float: right;
+        width: 75%;
+      }
+      #Home .navgation .list ul li {
+        float: left;
+        padding: 0 8px;
+        font-weight: 300;
+        margin-top: 20px;
+        font-size: 18px;
+      }
+      #About .container{
+        width: 100%;
+        margin: 0;
+      }
+      .border{
+        border: none;
+        margin-left:-50px;
+      }
+      #About .border .About-img .glass .icon a {
+        padding: 0 5px;
+      }
+      #About .About-info .about-list1 {
+        float: left;
+        width: 30%;
+      
+      }
+      #About .About-info .about-list2 {
+        float: left;
+        width: 60%;
+        padding-top: 20px;
+        
+      }
+      #About .About-info .about-list1 ul,
+      #About .About-info .about-list2 ul{
+        margin: 0;
+      }
+      #About .About-info .about-list2 ul li{
+       margin: 5px 0;
+      }
+      #About .About-info .about-list1 ul li,
+      #About .About-info .about-list2 ul li {
+        padding: 10px 0;
+        font-size: 13px;
+      }
+      #About .About-info .about-list1 ul li span,
+      #About .About-info .about-list2 ul li span {
+        font-size: 14px;
+      }
+      #Services .container{
+        width: 90%;
+      }
+      #Services .Services-info{
+        width: 47%;
+      }
+      #Portfolio  .container{
+        width: 90%;
+      }
+      #Portfolio .Portfolio-card {
+        width: 47%;
+      }
+      .Count .container{
+        width: 90%;
+      }
+      #Testimonial .container {
+        width: 90%;
+      }
+      #Blog{
+        padding: 70px 0;
+      }
+      #Blog .container{
+        width: 90%;
+      }
+      #Blog .Blog-info .info {
+        padding: 10px;
+      }
+      #Blog .Blog-info img,
+       #Blog .Blog-info iframe {
+      height: 150px;
+      }
+      #Blog .Blog-info p {
+        font-size: 18px;
+      }
+      #Blog .Blog-info h3 {
+        font-weight: 700;
+        font-size: 18px;
+      }
+      #Contact .container{
+        width: 100%;
+      }
+      #Contact .container .Contact-form {
+        width: 90%;
+      }
+      .end-foot {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+    }
+    
+    
+    /* xl */
+    @media screen and (min-width: 1280px) {
+      #Home .navgation .container{
+        width: 90%;
+      }
+      #Home .navgation .logo {
+        width: 40%;
+      }
+      #Home .navgation .list {
+        width: 60%;
+      }
+      #Home .navgation .list ul li {
+        padding: 10px 15px;
+        font-size: 18px;
+      }
+    }
+  
